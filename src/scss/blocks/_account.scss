@@ -1,0 +1,16 @@
+.account {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+
+	a {
+		// тк hover появлялся не на всем элементе
+		display: inline-block;
+		transition: all 0.2s ease-in;
+	}
+
+
+	a:hover {
+		background: var(--neutral-grayededed);
+	}
+}
